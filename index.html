@@ -1,56 +1,64 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevTeam Hub</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body class="bg-gray-950 text-white font-sans">
-    <!-- NAV -->
-    <nav
-      class="flex items-center justify-between px-8 py-4 border-b border-gray-800"
-    >
-      <span class="text-xl font-bold text-indigo-400">DevTeam Hub</span>
-      <div class="flex gap-6 text-sm text-gray-400">
-        <a href="#team" class="hover:text-white transition-colors">Team</a>
-        <a href="#projects" class="hover:text-white transition-colors"
-          >Projects</a
-        >
-      </div>
-    </nav>
 
-    <!-- HERO -->
-    <section class="text-center py-24 px-4">
-      <h1 class="text-5xl font-extrabold text-white mb-4">
-        We Build Things Together
-      </h1>
-      <p class="text-gray-400 text-lg max-w-xl mx-auto">
-        A crew of developers learning to ship real software. JSD Cohort 12.
-      </p>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevTeam Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body class="bg-gray-950 text-white font-sans">
+  <!-- NAV -->
+  <nav class="flex items-center justify-between px-8 py-4 border-b border-gray-800">
+    <span class="text-xl font-bold text-indigo-400">DevTeam Hub</span>
+    <div class="flex gap-6 text-sm text-gray-400">
+      <a href="#team" class="hover:text-white transition-colors">Team</a>
+      <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="text-center py-24 px-4">
+    <h1 class="text-5xl font-extrabold text-white mb-4">
+      We Build Things Together
+    </h1>
+    <p class="text-gray-400 text-lg max-w-xl mx-auto">
+      A crew of developers learning to ship real software. JSD Cohort 12.
+    </p>
+  </section>
+
+      
+
+    
 
     <!-- TEAM SECTION -->
     <section id="team" class="px-8 py-16">
       <h2 class="text-2xl font-bold text-indigo-400 mb-10 text-center">
         Meet the Team
       </h2>
-      <div
+  <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto"
       >
         <!-- MEMBER 1: Replace this placeholder with your card -->
         <div
-          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+          class="bg-slate-900 rounded-xl p-6 text-center border border-dashed border-emerald-500/50 shadow-lg shadow-emerald-900/20"
         >
-          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
-          <p class="font-semibold text-gray-400">Asha</p>
-          <p class="text-sm text-gray-500">Waiting for PR...</p>
+          <div
+            class="w-16 h-16 rounded-full bg-slate-800 border-2 border-yellow-500 mx-auto mb-4 shadow-[0_0_10px_rgba(234,179,8,0.3)] bg-cover bg-center"
+            style="
+              background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2021/11/JJBA-Jotaro-Kujo.jpg?w=1200&h=628&fit=crop);
+            "
+          ></div>
+          <p class="font-bold text-emerald-400">Asha</p>
+          <p class="text-sm text-slate-400">
+            ไม่หยุด ไม่ถอย
+            <span class="text-red-600 font-semibold">ไม่ธรรมดา</span>
+          </p>
         </div>
 
         <!-- MEMBER 2: Replace this placeholder with your card -->
@@ -64,61 +72,87 @@
 
         <!-- MEMBER 3: Replace this placeholder with your card -->
         <div
-          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+          class="bg-gray-900 rounded-xl p-6 text-center border border-dashed border-gray-600"
         >
-          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
-          <p class="font-semibold text-gray-400">Member 3</p>
-          <p class="text-sm text-gray-500">Waiting for PR...</p>
+          <div
+            class="w-16 h-16 rounded-full bg-slate-800 border-2 border-green-500 mx-auto mb-4 shadow-[0_0_10px_rgba(234,179,8,0.3)] bg-cover bg-center"
+            style="background-image: url(./src/starchaser.jpg)"
+          ></div>
+          <p class="font-semibold text-white">Swaggest dev</p>
+          <p class="text-sm text-gray-300">
+            Punk nerd who passionate about Technology hoping some day he will
+            become a Creative technologist. but right now he is Swagger
+          </p>
         </div>
 
         <!-- MEMBER 4: Replace this placeholder with your card -->
         <div
-          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+          class="bg-gray-800 rounded-xl p-6 text-center border border-dashed border-gray-600"
         >
-          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
-          <p class="font-semibold text-gray-400">Member 4</p>
-          <p class="text-sm text-gray-500">Waiting for PR...</p>
+          <img
+            src="/src/241914a1237bcb20a3bf99897300c537.jpg"
+            class="w-16 h-16 rounded-full object-cover mx-auto mb-4"
+          />
+          <p class="font-semibold text-yellow-400">Linji</p>
+          <p class="text-sm text-gray-500">
+            Looking for the <span class="text-blue-400">All Blue</span> in the
+            tech world.
+          </p>
         </div>
 
         <!-- MEMBER 5: Replace this placeholder with your card -->
-        <div
-          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
-        >
-          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
-          <p class="font-semibold text-gray-400">Member 5</p>
-          <p class="text-sm text-gray-500">Waiting for PR...</p>
-        </div>
+      <div class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600">
+        <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
+        <p class="font-semibold text-gray-400">Montri</p>
+        <p class="text-sm text-gray-500">I need to be a Full Stack Developer</p>
+      </div>
+     
+
+
+      
 
         <!-- MEMBER 6: Replace this placeholder with your card -->
         <div
-          class="bg-gray-800 rounded-xl p-6 text-center opacity-40 border border-dashed border-gray-600"
+          class="bg-gray-800 rounded-xl p-6 text-center border border-gray-700 hover:scale-105 hover:shadow-xl hover:shadow-indigo-500/20 transition duration-300"
         >
-          <div class="w-16 h-16 rounded-full bg-gray-600 mx-auto mb-4"></div>
-          <p class="font-semibold text-gray-400">Member 6</p>
-          <p class="text-sm text-gray-500">Waiting for PR...</p>
+          <img
+            src="/sign-img.png"
+            alt="SIGN"
+            class="w-16 h-16 rounded-full object-cover mx-auto mb-4 border-2 border-indigo-400 shadow-md shadow-indigo-500/30"
+          />
+          <p class="font-bold text-indigo-300">SIGN 🌸</p>
+          <p class="text-sm text-gray-400">Frontend Beginner</p>
+          <p class="text-xs text-gray-500">From zero to hero 🚀 💻</p>
+          <span
+            class="inline-block mt-2 px-3 py-1 text-xs bg-indigo-500/20 text-indigo-300 rounded-full"
+          >
+            Beginner
+          </span>
         </div>
+
       </div>
-    </section>
 
-    <!-- PROJECT BOARD SECTION -->
-    <section id="projects" class="px-8 py-16 bg-gray-900">
-      <h2 class="text-2xl font-bold text-indigo-400 mb-10 text-center">
-        What We're Building
-      </h2>
-      <div
-        id="project-list"
-        class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto"
-      ></div>
-    </section>
+      
 
-    <!-- FOOTER -->
-    <footer
-      class="text-center py-8 text-gray-600 text-sm border-t border-gray-800"
-    >
-      Built by JSD Cohort 12 &mdash; practising Git one commit at a time.
-    </footer>
+     
+    </div>
+  </section>
 
-    <script src="data/projects.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- PROJECT BOARD SECTION -->
+  <section id="projects" class="px-8 py-16 bg-gray-900">
+    <h2 class="text-2xl font-bold text-indigo-400 mb-10 text-center">
+      What We're Building
+    </h2>
+    <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center py-8 text-gray-600 text-sm border-t border-gray-800">
+    Built by JSD Cohort 12 &mdash; practising Git one commit at a time.
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
